@@ -1,0 +1,16 @@
+<display [value]="currentValue"></display><br/>
+<digit-button [digit]="1" (digitPressed)="newDigit($event)"></digit-button>
+<digit-button [digit]="2" (digitPressed)="newDigit($event)"></digit-button>
+<digit-button [digit]="3" (digitPressed)="newDigit($event)"></digit-button>
+<op-button type="C" (opPressed)="op($event)"></op-button><br/>
+<digit-button [digit]="4" (digitPressed)="newDigit($event)"></digit-button>
+<digit-button [digit]="5" (digitPressed)="newDigit($event)"></digit-button>
+<digit-button [digit]="6" (digitPressed)="newDigit($event)"></digit-button>
+<op-button type="+" (opPressed)="op($event)"></op-button><br/>
+<digit-button [digit]="7" (digitPressed)="newDigit($event)"></digit-button>
+<digit-button [digit]="8" (digitPressed)="newDigit($event)"></digit-button>
+<digit-button [digit]="9" (digitPressed)="newDigit($event)"></digit-button>
+<op-button type="-" (opPressed)="op($event)"></op-button><br/>
+<digit-button [digit]="0" (digitPressed)="newDigit($event)"></digit-button>
+<op-button type="=" (opPressed)="op($event)"></op-button><br>
+
